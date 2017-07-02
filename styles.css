@@ -45,12 +45,13 @@ f   font-family: 'Roboto', sans-serif;
       flex-direction: row;
       flex-wrap: nowrap;
       width: cover;
-      height: 100px;
+      height: 80px;
       justify-content: space-between;
 }
 
 #logo{
   align-items: flex-start;
+  height: 70px;
 }
 
 #main-navigation{
@@ -93,21 +94,21 @@ header h2 {
     margin: 0;
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: row;
-    background-color:
+    background-color: #F2F1E8;
+
 }
 
 #index li img{
-    height: 250px;
+    height: 300px;
+    align-items: stretch;
     }
-/*
-/*.row-1 {
-    height: 250px;
-    flex-wrap: wrap;
-    padding: 5px;
-    /*flex-grow: 1;
-  }*/
+
+.row-1 {
+    padding: 1px;
+    align-items: stretch;
+  }
 
 
 .row-2 {
@@ -115,6 +116,13 @@ header h2 {
   padding: 5px;
   flex-direction: row;
   width: auto;
+}
+
+ul li > h3  {
+    position: relative;
+    background-color: #1D2416
+    padding: 3px;
+    color:
 }
 
 main{
