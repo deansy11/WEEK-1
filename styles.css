@@ -70,6 +70,7 @@ f   font-family: 'Roboto', sans-serif;
 main {
     display: flex;
     margin-right: 20%;
+    flex-wrap: nowrap;
 }
 header {
 
@@ -191,10 +192,13 @@ q {
   margin-left: 10%;
 }
 
-
-
 table{
     border-color: black;
     border: 1px;
+}
+
+#newsletter-body {
+    background-image: url("images/optimized/background-2.jpg");
+    background-size: cover;
 
 }
