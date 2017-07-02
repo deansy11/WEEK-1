@@ -69,7 +69,7 @@ f   font-family: 'Roboto', sans-serif;
 
 main {
     display: flex;
-    font-size: ;
+    margin-right: 20%;
 }
 header {
 
@@ -101,6 +101,7 @@ header h2 {
 }
 
 #index li img{
+    margin-right: 20%;
     height: 300px;
     align-items: stretch;
     }
@@ -118,21 +119,19 @@ header h2 {
   width: auto;
 }
 
-ul li > h3  {
+h3  {
     position: relative;
-    background-color: #1D2416
-    padding: 3px;
-    color:
+    z-index: 1;
+    padding: 1px;
+    color: #1D2416;
+    justify-content: center;
+    /*background-color: #1D2416;*/
 }
 
 main{
     margin-top: 2%;
     margin-left: 1%;
     margin-right: 1%;
-}
-
-#background-1{
-  width: 150px;
 }
 
 #background-3{
@@ -148,8 +147,51 @@ main{
     height: 60px;
     margin-top: 5%;
     font-family: 'Roboto', sans-serif;
-
 }
+
+q {
+  margin-left: 20%;
+}
+
+#community {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#history h2 {
+  margin-left: 0;
+}
+
+#history {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#facilities h2{
+  margin-left: 10%;
+}
+
+#facilities p{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#background-1{
+  margin-left: 80%;
+  position: relative;
+  width: 15%;
+  align-items: flex-end;
+}
+
+#monthly-plans h2 {
+  margin-left: 10%;
+}
+
+#monthly-plans table {
+  margin-left: 10%;
+}
+
+
 
 table{
     border-color: black;
