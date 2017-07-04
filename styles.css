@@ -1,23 +1,17 @@
-
 /*Background: #F2F1E8
 Text: #131511
-
 Inline Link: #968772
 Inline Link (Hover): #967343
-
 Navigation Background: #FFFFFF
 Navigation Text: #2B2F26
 Navigation Text (Hover): #CD5D67
 Navigation Text (Active) #968772
-
 Button Background: #968772
 Button Background (Hover): #967343
 Button Text: #F2F1E8
 Button Text (Hover): #FFFFFF
-
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
-
 FONTS:s
 font-family: 'Merriweather', serif;
 font-family: 'Roboto', sans-serif;*/
@@ -38,13 +32,12 @@ f   font-family: 'Roboto', sans-serif;
 
   }
 
-.header{
+#header{
       background-color: white;
       padding: 5px;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap;
-      width: cover;
       height: 80px;
       justify-content: space-between;
 }
@@ -59,33 +52,33 @@ f   font-family: 'Roboto', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 2%;
     margin-right: 40%;
-    padding: inherit;
+    padding-left: 10px;
+    margin-left: 20px;
+    align-items: center;
 
 }
 
 #main-navigation a{
-    padding: inherit;
+    padding: 10px;
+    margin-left: 10px;
 }
 
-main {
+/*main {
     display: flex;
     margin-right: 20%;
     flex-wrap: nowrap;
-}
-header {
-
-}
+}*/
 
 
-header > h1 {
+#index header h1 {
     font-size: 40px;
-    margin-left: 35%;
-    font-family: 'Lora', serif;
+    /*margin-left: 35%;*/
+    text-align: center;
 }
 
-header h2 {
+#index header h2 {
     font-size: 25px;
-    margin-left: 38%;
+    text-align: center;
     font-family: 'Lora', serif;
 }
 
